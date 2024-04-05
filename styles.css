@@ -1,0 +1,237 @@
+/* html{
+overflow-x: hidden;
+} */
+
+body {
+    font-family: "PT Sans", sans-serif;
+    background-color: #ededf5;
+}
+
+i {
+    color: #e0dcdc;
+    font-size: 255%;
+    margin: 10px;
+}
+
+i:hover {
+    color: #fff;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+#header {
+    background-color: #002037;
+    padding-bottom: 2%;
+}
+
+.navbar {
+    color: #fff;
+    /* font-size: 100px; */
+    padding: 1% 15%;
+}
+
+.navbar img {
+    width: 170px;
+    height: 30%;
+}
+
+#carouselExampleIndicators {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+
+#carouselExampleIndicators img {
+    max-height: 740px;
+    width: 80%;
+    border-radius: 1%;
+    margin: auto;
+}
+
+
+
+/* #BoardMembers h1 {
+    margin: 100px 0;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#BoardMembers img {
+    width: 60%;
+    margin: 50px 0;
+    border-radius: 10%;
+} */
+
+#BoardMembers {
+    padding-bottom: 5%;
+}
+
+#BoardMembers h1 {
+    /* margin: 100px 0;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 2.8125rem;
+    color: #ededf5;
+    line-height: 1.6; */
+
+    margin: 5% auto;
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.125rem;
+    line-height: 1.6;
+}
+
+#BoardMembers .row-padding {
+    padding: 0 6%;
+}
+
+#BoardMembers img {
+    /* width: 60%; */
+    /* margin: 50px 0; */
+    border-radius: 1%;
+}
+
+#BoardMembers .col {
+    margin-bottom: 50px;
+
+}
+
+.card {
+    /* background-color: #002037;
+    color: #fff;
+    border-radius: 15px; */
+    width: 83%;
+    margin: 0 auto;
+}
+
+.card-title {
+    text-align: center;
+    margin: 17px auto;
+    /* font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder; */
+    /* font-size: 45px; */
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.6rem;
+}
+
+#Society_Events {
+    background-color: #002037;
+    /* margin-top: 80px; */
+    padding: 30px 0;
+}
+
+
+#Society_Events h1 {
+    /* font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+     */
+    margin: 5% auto;
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.125rem;
+    color: #ededf5;
+    line-height: 1.6;
+}
+
+
+
+@media screen and (max-width: 850px) and (min-width : 100px) {
+
+    #carouselExampleIndicators {
+        margin: 0;
+        width: 100%;
+    }
+
+    #carouselExampleIndicators img {
+        max-height: 700px;
+        width: 100%;
+        border-radius: 1%;
+        margin: auto;
+    }
+
+    .carousel .item {
+        height: 500px;
+        background-color: #777;
+    }
+
+    .carousel-inner>.item>img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        object-fit: cover;
+    }
+
+    #BoardMembers h1 {
+        font-size: 33px;
+        /* width: 400px; */
+        margin: 70px auto;
+        /* padding: 10% 10%; */
+    }
+
+    #Society_Events h1 {
+        font-size: 30px;
+        margin: 10% auto;
+        margin-bottom: 17%;
+        /* width: 400px; */
+        /* padding: 10% 10%; */
+    }
+
+    #BoardMembers .col {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 700px) and (min-width: 100px) {
+
+    .navbar img {
+        width: 120px;
+    }
+
+    i {
+        font-size: 27px;
+    }
+
+    .card {
+        width: 85%;
+        /* margin: 0 auto; */
+    }
+}
+
+
+@media screen and (max-width: 430px) and (min-width: 100px) {
+
+
+    .card {
+        width: 92%;
+        /* margin: 0 auto; */
+    }
+
+    .col {
+        margin: 0 auto;
+    }
+
+    #header {
+        padding-bottom: 7%;
+    }
+
+    #carouselExampleIndicators {
+        margin: 0;
+        margin-top: 12%;
+        width: 100%;
+    }
+
+    #BoardMembers {
+        padding-bottom: 17%;
+    }
+}
