@@ -10,7 +10,8 @@ body {
 #header i {
     color: #e0dcdc;
     font-size: 255%;
-    margin: 10px;
+    margin-top: 10px;
+    margin-right: 45px;
 }
 
 #header i:hover {
