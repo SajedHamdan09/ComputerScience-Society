@@ -42,8 +42,8 @@ i:hover {
 }
 
 #carouselExampleIndicators img {
-    max-height: 780px;
-    width: 83%;
+    max-height: 740px;
+    width: 80%;
     border-radius: 1%;
     margin: auto;
 }
@@ -64,7 +64,7 @@ i:hover {
     border-radius: 10%;
 } */
 
-#BoardMembers{
+#BoardMembers {
     padding-bottom: 5%;
 }
 
@@ -85,6 +85,10 @@ i:hover {
     line-height: 1.6;
 }
 
+#BoardMembers .row-padding {
+    padding: 0 6%;
+}
+
 #BoardMembers img {
     /* width: 60%; */
     /* margin: 50px 0; */
@@ -100,17 +104,21 @@ i:hover {
     /* background-color: #002037;
     color: #fff;
     border-radius: 15px; */
-    width: 70%;
+    width: 83%;
     margin: 0 auto;
 }
 
 .card-title {
     text-align: center;
     margin: 17px auto;
-    font-family: "Kode Mono", monospace;
+    /* font-family: "Kode Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: bolder;
+    font-weight: bolder; */
     /* font-size: 45px; */
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.6rem;
 }
 
 #Society_Events {
@@ -125,7 +133,7 @@ i:hover {
     font-optical-sizing: auto;
     font-weight: bolder;
      */
-     margin: 5% auto;
+    margin: 5% auto;
     font-family: "Bungee Inline", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -194,6 +202,10 @@ i:hover {
         font-size: 27px;
     }
 
+    .card {
+        width: 85%;
+        /* margin: 0 auto; */
+    }
 }
 
 
@@ -219,7 +231,7 @@ i:hover {
         width: 100%;
     }
 
-    #BoardMembers{
+    #BoardMembers {
         padding-bottom: 17%;
     }
 }
